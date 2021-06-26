@@ -1,1 +1,1 @@
-# weather-dashboard
+# wk6-weather-dashboard

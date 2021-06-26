@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+
+#current-city {
+    border: 5px solid rgb(8, 8, 8);
+    display:right;
+    justify-content: right;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#card-container {
+    border: 5px solid pink;
+    display: flex row;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}

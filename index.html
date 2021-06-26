@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> </meta>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">  </meta>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  </meta>
+    <title> Weather Dashboard </title>
+  <!--Bootstrap CSS CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <!--Jumbotron-->
+<div class= "jumbotron" style="background-color:#FFE6EE color: #404040 ;">
+    
+        <h1> <strong>Weather Dashboard</strong></h1>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="inputs">
+            <h4 class="input 1">
+                <strong> Search for Your City: </strong>
+            </h4>
+            <div class="city-search-inputs">
+                <input type="text" class="form-control" id="city-search" aria-label="City Search" aria-describedly="search-button">
+            <div class="input-group 2">
+            <button class="btn one" id="search-button">
+                <i class= "fa fa-search">
+                    
+                </i>
+            </button>
+            </div>  
+            </div>
+            <!---search history-->
+            <button class=" btn btn-one" type="button" id="clear-history"> Clear history</button>
+            <ul class="list-group"></ul>
+               </div>
+            <div class></div>
+    </div>
+</div>
+
+<div class="container-fluid" id= 'current-city'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+      <div class= float-right;></div>
+      <div style="width:500px;height:100px;border:1px solid #000;">
+        <strong>Forecast</strong></div>
+
+</div>
+</div>
+<div class="container-fluid" id= 'card-container'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+     
+    <div class="row">
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <p class="card-text"> </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday</h5>
+              <p class="card-text"> </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+      </div>
+        <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Wednesday</h5>
+                    <p class="card-text"> </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+          </div>
+        <div class="col-sm-2">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Thursday</h5>
+                            <p class="card-text"> </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                  </div>
+        <div class="col-sm-2">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Friday</h5>
+                                    <p class="card-text"> </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+  </body>
+</html>
